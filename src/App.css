@@ -3,6 +3,8 @@
   border : solid rgba(187, 187, 187, 0.5) 1px;
   height: 70vh;
   width: 60vw;
+  min-width: 400px;
+  min-height: 600px;
   margin : 15vh auto auto auto;
   border-radius: 12px;
   position: relative;
