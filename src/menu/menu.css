@@ -1,0 +1,39 @@
+.menu{
+    border-right : solid rgba(187, 187, 187, 0.5) 1px;
+    width: 200px;
+    max-width: 40%;
+    height: 100%;
+    min-width: 20%;
+    box-sizing: border-box;
+    padding-top: 8%;
+    position: relative;
+}
+.menu .tabs{
+    position: absolute;
+    top : 50px;
+}
+.menu .tab{
+    display: flex;
+    margin: 2vh 0;
+    background: none;
+    color : #333;
+    border : none;
+    text-decoration: none;
+    padding-left: 15px;
+    transition: color 0.1s ease;
+}
+
+.image{
+    margin : auto 0;
+}
+
+.menu .tab:hover{
+    cursor: pointer;
+    color : #fd4545;
+    transition: color 0.1s ease;
+}
+.menu .text{
+    padding-left: 1vw;
+    font-size: 1.5em;
+    font-weight: bold;
+}
